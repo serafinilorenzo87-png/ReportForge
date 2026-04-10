@@ -29,7 +29,7 @@ Built with real-world pentesting workflows in mind.
 
 ## 📸 Screenshot
 
-![App Screenshot](assets/Dashboard.png)
+![App Screenshot](assets/Dasboard.png)
 
 ---
 
