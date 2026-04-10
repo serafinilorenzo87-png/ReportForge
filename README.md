@@ -7,6 +7,22 @@
 
 A local desktop application for pentest reporting, designed for security professionals who want full control over their data.
 
+```md
+## 💡 Why this project matters
+
+Most pentest reporting tools are either:
+- Cloud-based (risk for sensitive data)
+- Overcomplicated
+- Expensive
+
+**ReportForge solves this by being:**
+- 🖥️ Fully local-first
+- 🔐 Privacy-focused
+- ⚡ Fast and simple to use
+
+Built with real-world pentesting workflows in mind.
+
+
 ---
 
 ## 📸 Screenshot
@@ -38,18 +54,21 @@ A local desktop application for pentest reporting, designed for security profess
 
 ## ⚡ Quick Start (Windows 11)
 
+### Prerequisites
+- Python 3.11+
+- Git
+
+### Setup
+
 ```powershell
 git clone https://github.com/serafinilorenzo87-png/ReportForge.git
 cd ReportForge
 
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+.venv\Scripts\activate
 
 pip install -r requirements.txt
 python main.py
-```
-
----
 
 ## ⚡ Quick Start (Linux)
 
