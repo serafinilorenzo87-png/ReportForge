@@ -7,7 +7,6 @@
 
 A local desktop application for pentest reporting, designed for security professionals who want full control over their data.
 
-```md
 ## 💡 Why this project matters
 
 Most pentest reporting tools are either:
