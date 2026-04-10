@@ -5,28 +5,31 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey)
 
-A local desktop application for pentest reporting, designed for security professionals who want full control over their data.
+A local-first desktop application for pentest reporting, designed for security professionals who want full control over their data.
+
+---
 
 ## 💡 Why this project matters
 
 Most pentest reporting tools are either:
-- Cloud-based (risk for sensitive data)
-- Overcomplicated
-- Expensive
+
+* Cloud-based (risk for sensitive data)
+* Overcomplicated
+* Expensive
 
 **ReportForge solves this by being:**
-- 🖥️ Fully local-first
-- 🔐 Privacy-focused
-- ⚡ Fast and simple to use
+
+* 🖥️ Fully local-first
+* 🔐 Privacy-focused
+* ⚡ Fast and simple to use
 
 Built with real-world pentesting workflows in mind.
-
 
 ---
 
 ## 📸 Screenshot
 
-![App Screenshot](assets/Dasboard.png)
+![App Screenshot](assets/Dashboard.png)
 
 ---
 
@@ -54,8 +57,9 @@ Built with real-world pentesting workflows in mind.
 ## ⚡ Quick Start (Windows 11)
 
 ### Prerequisites
-- Python 3.11+
-- Git
+
+* Python 3.11+
+* Git
 
 ### Setup
 
@@ -68,10 +72,18 @@ python -m venv .venv
 
 pip install -r requirements.txt
 python main.py
+```
 
 ---
 
-### ⚡ Quick Start (Linux)
+## ⚡ Quick Start (Linux)
+
+### Prerequisites
+
+* Python 3.11+
+* Git
+
+### Setup
 
 ```bash
 git clone https://github.com/serafinilorenzo87-png/ReportForge.git
@@ -122,7 +134,14 @@ main.py             # Entry point
 * Export templates customization
 * Multi-user support
 * Plugin system
-* Cloud sync (optional)
+* Optional cloud sync
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.
+For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
@@ -134,5 +153,5 @@ MIT License
 
 ## 👤 Author
 
-Lorenzo Serafini
+**Lorenzo Serafini**
 Cybersecurity & Software Engineering
