@@ -1,0 +1,82 @@
+ReportForge - Windows 11 Quick Start Guide
+
+1. Requirements
+- Windows 11
+- Python 3.11 or newer installed
+- Internet connection for installing dependencies the first time
+
+2. Open the project folder
+- Put the full ReportForge project folder somewhere easy to access, for example on your Desktop.
+- Open that folder in Visual Studio Code, or open Command Prompt / PowerShell inside that folder.
+
+3. Create a virtual environment
+Run:
+
+python -m venv .venv
+
+4. Activate the virtual environment
+If you use Command Prompt:
+
+.venv\Scripts\activate
+
+If you use PowerShell:
+
+.venv\Scripts\Activate.ps1
+
+5. Install dependencies
+If you already have a requirements.txt file, run:
+
+pip install -r requirements.txt
+
+If you do not have a requirements.txt file yet, install the packages your app uses manually.
+
+6. Check the project structure
+Make sure these important parts exist:
+- main.py
+- app\
+- assets\reportforge_icon.png
+
+7. Start the app
+Run:
+
+python main.py
+
+8. If Windows blocks script execution in PowerShell
+Run PowerShell as user and execute:
+
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+Then activate the virtual environment again.
+
+9. If Python is not recognized
+Try:
+
+py main.py
+
+or verify Python installation with:
+
+python --version
+
+10. Common problems
+- Missing module error:
+  Install the missing dependency with pip install <package_name>
+- App icon not visible:
+  Check that assets\reportforge_icon.png exists
+- Database/schema issues:
+  If you changed models, you may need to recreate the local database file for testing
+- Nothing happens when starting:
+  Run from terminal and read the full error message carefully
+
+11. Optional: create a portable executable
+After the app works, you can package it with PyInstaller:
+
+pip install pyinstaller
+pyinstaller --noconfirm --windowed --onefile --name ReportForge main.py
+
+The executable will usually be created in:
+
+dist\ReportForge.exe
+
+12. Notes
+- Keep the assets folder available if your build still depends on local files.
+- For development, starting with python main.py is the easiest and most reliable method.

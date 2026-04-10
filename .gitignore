@@ -1,0 +1,37 @@
+# Virtual environment
+.venv/
+.venv-1/
+venv/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Runtime app data
+data/
+reportforge_data/
+exports/
+
+# Build artifacts
+dist/
+build/
+*.spec
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / env
+*.log
+.env
+.env.*
