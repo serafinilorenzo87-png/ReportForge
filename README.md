@@ -69,7 +69,9 @@ python -m venv .venv
 pip install -r requirements.txt
 python main.py
 
-## ⚡ Quick Start (Linux)
+---
+
+### ⚡ Quick Start (Linux)
 
 ```bash
 git clone https://github.com/serafinilorenzo87-png/ReportForge.git
