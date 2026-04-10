@@ -11,7 +11,7 @@ A local desktop application for pentest reporting, designed for security profess
 
 ## 📸 Screenshot
 
-![App Screenshot](assets/dashboard.png)
+![App Screenshot](assets/Dasboard.png)
 
 ---
 
