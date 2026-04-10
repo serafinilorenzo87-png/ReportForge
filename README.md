@@ -54,7 +54,7 @@ python main.py
 ## ⚡ Quick Start (Linux)
 
 ```bash
-git clone https://github.com/TUO_USERNAME/ReportForge.git
+git clone https://github.com/serafinilorenzo87-png/ReportForge.git
 cd ReportForge
 
 python3 -m venv .venv
